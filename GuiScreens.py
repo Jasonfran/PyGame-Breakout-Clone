@@ -13,7 +13,7 @@ from Scene import Scene
 class TitleScreen(Scene):
     def __init__(self):
 
-        # But all buttons into a dictionary, very easy to store and recall them
+        # Put all buttons into a dictionary, very easy to store and recall them
         self.buttons = {}
         # Each button has it's own key to the dictionary for easy event handling
         self.buttons['Play'] = Gui.StandardButton((400, 250, 60, 30), 'Play', center_x=True, font_size=40)
